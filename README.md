@@ -14,13 +14,13 @@ DataPrep (1) Relink Reweights
 
 
 File Structure:  
-├── DataPrep (1) Relink Reweights.Rmd # Reweights indicators and adds elevation and light GDP data run before running anything else  
-├── DataGraphics (1) Heatmap.R 		  		# Creates a heatmap for schools          
-├── DataGraphics (2) Summary Tables.R  	# Creates Summary Tables   
-├── Results (1) Regressions.do 		  		# Runs Regressions and creates tables -- requires the geodist Stata package  
-├── Results (2) LO_DML.ipynb				# Runs DML Regressions with 25 covariates  
-├── Results (3) LO_DML_5Covars.ipynb		# Runs DML Regressions with 5 covariates and fixed effects (mediator concerns)  
-├── Raw/ 						  				# all required shapefiles and datafiles must go here  
+├── DataPrep (1) Relink Reweights.Rmd          
+├── DataGraphics (1) Heatmap.R     		  		           
+├── DataGraphics (2) Summary Tables.R     	   
+├── Results (1) Regressions.do     		  		    
+├── Results (2) LO_DML.ipynb    				
+├── Results (3) LO_DML_5Covars.ipynb    		
+├── Raw/     						  				 
 
 Variable Definitions:  
 absence_rate = m2sbq6_efft==6 | m2sbq6_efft==5 |  teacher_available==2  
